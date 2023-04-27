@@ -1,10 +1,12 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
+import React, { useState } from "react"
+import PokemonList from "./PokemonList";
 
 function App() {
-  return <>hello</>;
+  const [pokemon, setPokemon] = useState(["bubblesor", "chalmendar"])
+  
+  return (<>
+  <PokemonList pokemon={pokemon}/>
+  </>);
 }
 
 export default App;
