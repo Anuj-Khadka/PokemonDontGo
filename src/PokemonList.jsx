@@ -1,9 +1,8 @@
 import React from "react";
 
-const PokemonList = ({ pokemon }) => {
+const PokemonList = ({pokemon }) => {
   return (
-    <div>
-      this are
+    <div className="pokemon-list">
       {pokemon.map((pokemon) => (
         <div key={pokemon}>{pokemon}</div>
       ))}
