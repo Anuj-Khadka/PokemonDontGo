@@ -1,5 +1,3 @@
-import React from "react";
-
 const PokemonList = ({pokemon }) => {
   return (
     <div className="pokemon-list">
