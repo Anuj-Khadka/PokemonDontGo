@@ -55,5 +55,5 @@ button:hover{
 }
 
 .pokemon-list > div:hover{
-    border: solid 0.5px;
+    border: dotted 0.5px;
 }
