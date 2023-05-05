@@ -1,2 +1,2 @@
 # PokemonDontGo
-learning pagenation with react js.
+learning pagenation with react JS
